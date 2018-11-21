@@ -7,7 +7,6 @@ $(window).scroll(function() {
 
     if ( scroll_position >= sc &&  w_logo.style.opacity != '0'  ) {
       w_logo.style.opacity = '0';
-      w_logo.style.transition = '0.6s';
       b_logo.style.opacity = '0.5';
       mid_text.style.opacity = '1';
     }
@@ -18,7 +17,6 @@ $(window).scroll(function() {
     }
     if ( scroll_position >= 1051  ) {
       w_logo.style.opacity = '1';
-      w_logo.style.transition = '0.6s';
       b_logo.style.opacity = '0';
       mid_text.style.opacity = '0';
     }

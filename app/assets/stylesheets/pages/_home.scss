@@ -25,7 +25,7 @@ a {
   opacity: 0.6;
   margin-bottom: 30px;
 }
-.div-logo-white
+#white-logo
 {
     position: fixed;
     left: 50%;
@@ -37,7 +37,8 @@ a {
     width: 600px;
     margin-left: -300px;
     opacity: 1;
-    transition: 1s;
+    transition: 0.4s;
+    z-index: 100;
 }
 #div-logo-black
 {
@@ -52,7 +53,8 @@ a {
     width: 600px;
     margin-left: -300px;
     opacity: 0;
-    transition: 1s;
+    transition: 0.1s;
+
 }
 
 #text-middle {
