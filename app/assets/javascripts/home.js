@@ -4,8 +4,6 @@ $(window).scroll(function() {
   var w_logo = document.getElementById("white-logo")
   var b_logo = document.getElementById("div-logo-black")
 
-  console.log(scroll_position);
-
     if ( scroll_position >= sc &&  w_logo.style.opacity != '0'  ) {
       w_logo.style.opacity = '0';
       w_logo.style.transition = '0.6s';
